@@ -1,0 +1,23 @@
+shaders/composite.slang: wavedx() and getwaves() are adapted from "Very fast procedural ocean" by afl_ext
+
+Copyright (c) 2017 by afl_ext.
+
+Permission to use, copy, modify, distribute, and sell this software and its
+documentation for any purpose is hereby granted without fee, provided that
+the above copyright notice appear in all copies and that both that copyright
+notice and this permission notice appear in supporting documentation.
+No representations are made about the suitability of this software for any
+purpose. It is provided "as is" without express or implied warranty.
+
+Other credits:
+
+- Look, lighting model, tonemap and color grading inspired by BSL Shaders by Capt Tatsu (https://bitslablab.com).
+- Interleaved gradient noise: Jorge Jimenez, "Next Generation Post Processing in Call of Duty: Advanced Warfare" (SIGGRAPH 2014).
+- Octahedral normal encoding: Cigolle et al., "A Survey of Efficient Representations for Independent Unit Vectors" (JCGT 2014).
+- Light shafts: Kenny Mitchell, "Volumetric Light Scattering as a Post-Process", GPU Gems 3.
+
+
+NOTE: 
+
+This shader is a mashup of all the mentioned above, i am not a very good shader programer, any erros please report it to me!
+- flaffy
